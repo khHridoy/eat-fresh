@@ -19,7 +19,7 @@ h1 {
   font-size: 40px;
   color: grey;
 }
-.content h1 span {
+h1 span {
   color: tomato;
 }
 p {
@@ -73,4 +73,14 @@ p {
 }
 .count-content h2 {
   text-align: center;
+}
+footer {
+  height: 200px;
+  background-color: black;
+  text-align: center;
+  padding: 2%;
+  margin-top: 80px;
+}
+footer small {
+  color: white;
 }
