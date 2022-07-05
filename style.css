@@ -4,6 +4,7 @@ body {
 }
 .container {
   display: flex;
+  justify-content: center;
 }
 #header-container {
   background-image: url(images/header-bg.jpg);
@@ -41,7 +42,35 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#my-recipies-container h1,
+.center {
+  text-align: center;
+}
+.recipies-item {
+  width: 40%;
+  margin: 2% 2% 2% 4%;
+  padding: 1%;
+  box-shadow: 16px 10px 40px gray;
+  border-radius: 20px;
+}
+.recipies-item h1,
 p {
+  text-align: left;
+  color: black;
+}
+.recipies-item img {
+  width: 100%;
+  height: 300px;
+  border-radius: 15px;
+}
+#count {
+  width: 85%;
+  margin: 30px auto;
+  box-shadow: 20px 20px 40px grey;
+  border-radius: 25px;
+}
+.count-content {
+  padding: 0 5%;
+}
+.count-content h2 {
   text-align: center;
 }
