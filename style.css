@@ -1,3 +1,35 @@
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+section {
+  display: flex;
+  margin-bottom: 2%;
+}
+#header-container {
+  background-image: url(images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  padding: 0 5%;
+  width: 50%;
+}
+h1 {
+  font-size: 40px;
+  color: grey;
+}
+.content h1 span {
+  color: tomato;
+}
+p {
+  font-size: 20px;
+  color: gray;
+}
+.button {
+  text-decoration: none;
+  background-color: tomato;
+  color: white;
+  padding: 1.5% 3%;
+  border-radius: 25px;
 }
